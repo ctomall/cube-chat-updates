@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# 原子发布：版本核对 → GitHub Release 资产 → CDN 镜像 → 清单 → 推送 → 三处 sha256 校验
-# 用法: ./release.sh <version> <apk> [note]
+# 原子发布（顺序修正版）：
+#   1) 版本核对 → 2) 写清单并提交推送 → 3) 在该提交上打 tag 建 Release → 4) 上传资产 → 5) CDN 镜像 → 6) 校验
+# 用法: ./release.sh <version> <apk> [note]      （SKIP_C_SHA=1 时用本机 CDN 文件核对 sha）
 set -euo pipefail
 VER=${1:?usage: ./release.sh <version> <apk> [note]}
 APK=${2:?apk path}
@@ -32,30 +33,9 @@ print(m.group(1) if m else '')
 PY
 )}
 [ -n "$TOKEN" ] || { echo "✗ 没有 GitHub token"; exit 1; }
-
 api() { curl -sS -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" "$@"; }
 
-# 1) GitHub Release（幂等：已存在则复用）
-REL_ID=$(api "https://api.github.com/repos/$OWNER_REPO/releases/tags/v$VER" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('id',''))" 2>/dev/null || true)
-if [ -z "$REL_ID" ]; then
-  REL_ID=$(api -X POST "https://api.github.com/repos/$OWNER_REPO/releases" \
-    -d "{\"tag_name\":\"v$VER\",\"name\":\"Cube Chat $VER\",\"body\":\"$NOTE\"}" \
-    | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])")
-fi
-# 2) 上传资产（同名已存在则先删）
-api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" \
-  | python3 -c "import sys,json;[print(a['id']) for a in json.load(sys.stdin) if a['name']=='$BASE']" \
-  | while read -r AID; do [ -n "$AID" ] && api -X DELETE "https://api.github.com/repos/$OWNER_REPO/releases/assets/$AID" >/dev/null; done
-api -X POST -H "Content-Type: application/vnd.android.package-archive" \
-  --data-binary @"$BASE" \
-  "https://uploads.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets?name=$BASE" >/dev/null
-
-# 3) CDN 镜像（sudo 免密）
-sudo mkdir -p "$CDN_DIR"
-sudo cp "$BASE" "$CDN_DIR/$BASE"
-sudo chmod 644 "$CDN_DIR/$BASE"
-
-# 4) 清单
+# 1) 清单先落库并推送（tag 必须指向含新清单的提交）
 cat > android.json <<JSON
 {
   "version": "$VER",
@@ -67,22 +47,40 @@ cat > android.json <<JSON
   "notes": ["$NOTE"]
 }
 JSON
-
-# 5) 提交推送
 git add -A
 git commit -q -m "release $VER: $NOTE"
 git push -q origin main
+COMMIT=$(git rev-parse HEAD)
 
-# 6) 校验三处一致
+# 2) 在该提交上建 Release（幂等）
+REL_ID=$(api "https://api.github.com/repos/$OWNER_REPO/releases/tags/v$VER" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('id',''))" 2>/dev/null || true)
+if [ -z "$REL_ID" ]; then
+  REL_ID=$(api -X POST "https://api.github.com/repos/$OWNER_REPO/releases" \
+    -d "{\"tag_name\":\"v$VER\",\"target_commitish\":\"$COMMIT\",\"name\":\"CTO Agent $VER\",\"body\":\"$NOTE\"}" \
+    | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])")
+fi
+
+# 3) 上传资产（同名先删）
+api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" \
+  | python3 -c "import sys,json;[print(a['id']) for a in json.load(sys.stdin) if a['name']=='$BASE']" \
+  | while read -r AID; do [ -n "$AID" ] && api -X DELETE "https://api.github.com/repos/$OWNER_REPO/releases/assets/$AID" >/dev/null; done
+api -X POST -H "Content-Type: application/vnd.android.package-archive" \
+  --data-binary @"$BASE" \
+  "https://uploads.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets?name=$BASE" >/dev/null
+
+# 4) CDN 镜像
+sudo mkdir -p "$CDN_DIR"
+sudo cp "$BASE" "$CDN_DIR/$BASE"
+sudo chmod 644 "$CDN_DIR/$BASE"
+
+# 5) 校验：API 资产尺寸 + CDN sha（可用 SKIP_C_SHA=1 走本机文件）
 R_SIZE=$(api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" | python3 -c "import sys,json;a=[x for x in json.load(sys.stdin) if x['name']=='$BASE'];print(a[0]['size'] if a else 0)")
 [ "$R_SIZE" = "$SIZE" ] || { echo "✗ Release 资产大小不符（$R_SIZE != $SIZE）"; exit 1; }
 if [ "${SKIP_C_SHA:-0}" = "1" ]; then
   C_SHA=$(sudo sha256sum "$CDN_DIR/$BASE" | cut -d' ' -f1)
-  echo "  (SKIP_C_SHA=1) 用本机 CDN 文件核对 sha"
 else
-  C_SHA=$(curl -sSL --max-time 90 "$CDN_BASE/$BASE" | sha256sum | cut -d' ' -f1)
+  C_SHA=$(curl -sSL --max-time 120 "$CDN_BASE/$BASE" | sha256sum | cut -d' ' -f1)
 fi
 [ "$C_SHA" = "$SHA" ] || { echo "✗ CDN 镜像 sha 不一致"; exit 1; }
-echo "✓ 发布 $VER ($WANT_CODE) size=$SIZE sha256=$SHA"
+echo "✓ 发布 $VER ($WANT_CODE) size=$SIZE sha256=$SHA commit=$COMMIT"
 echo "  release: https://github.com/$OWNER_REPO/releases/tag/v$VER"
-echo "  cdn:     $CDN_BASE/$BASE"
