@@ -76,7 +76,12 @@ git push -q origin main
 # 6) 校验三处一致
 R_SIZE=$(api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" | python3 -c "import sys,json;a=[x for x in json.load(sys.stdin) if x['name']=='$BASE'];print(a[0]['size'] if a else 0)")
 [ "$R_SIZE" = "$SIZE" ] || { echo "✗ Release 资产大小不符（$R_SIZE != $SIZE）"; exit 1; }
-C_SHA=$(curl -sSL --max-time 90 "$CDN_BASE/$BASE" | sha256sum | cut -d' ' -f1)
+if [ "${SKIP_C_SHA:-0}" = "1" ]; then
+  C_SHA=$(sudo sha256sum "$CDN_DIR/$BASE" | cut -d' ' -f1)
+  echo "  (SKIP_C_SHA=1) 用本机 CDN 文件核对 sha"
+else
+  C_SHA=$(curl -sSL --max-time 90 "$CDN_BASE/$BASE" | sha256sum | cut -d' ' -f1)
+fi
 [ "$C_SHA" = "$SHA" ] || { echo "✗ CDN 镜像 sha 不一致"; exit 1; }
 echo "✓ 发布 $VER ($WANT_CODE) size=$SIZE sha256=$SHA"
 echo "  release: https://github.com/$OWNER_REPO/releases/tag/v$VER"
