@@ -72,6 +72,9 @@ api -X POST -H "Content-Type: application/vnd.android.package-archive" \
 sudo mkdir -p "$CDN_DIR"
 sudo cp "$BASE" "$CDN_DIR/$BASE"
 sudo chmod 644 "$CDN_DIR/$BASE"
+# 清单也必须镜像：否则 CDN 源永远返回旧版本（历史缺陷：0.1.0 之后一直没同步）
+sudo cp android.json "$CDN_DIR/android.json"
+sudo chmod 644 "$CDN_DIR/android.json"
 
 # 5) 校验：API 资产尺寸 + CDN sha（可用 SKIP_C_SHA=1 走本机文件）
 R_SIZE=$(api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" | python3 -c "import sys,json;a=[x for x in json.load(sys.stdin) if x['name']=='$BASE'];print(a[0]['size'] if a else 0)")
