@@ -1,39 +1,83 @@
 #!/usr/bin/env bash
-# 原子发布：核对包内版本 → 算 sha256 → 落仓 → 写清单 → 提交 → 推送（SSH）
+# 原子发布：版本核对 → GitHub Release 资产 → CDN 镜像 → 清单 → 推送 → 三处 sha256 校验
+# 用法: ./release.sh <version> <apk> [note]
 set -euo pipefail
 VER=${1:?usage: ./release.sh <version> <apk> [note]}
 APK=${2:?apk path}
 NOTE=${3:-release $VER}
+OWNER_REPO=ctomall/cube-chat-updates
+CDN_DIR=/var/www/tongpin-demo/cube-chat
+CDN_BASE=https://dsh.ila3.top/demo/cube-chat
 cd "$(dirname "$0")"
 
-AAPT2=""
-for c in /home/pro/Android/Sdk/build-tools/34.0.0/aapt2 /home/pro/android-sdk/build-tools/34.0.0/aapt2; do
-  [ -x "$c" ] && AAPT2="$c" && break
-done
-[ -n "$AAPT2" ] || { echo "✗ 找不到 aapt2"; exit 1; }
-
+AAPT2=/home/pro/Android/Sdk/build-tools/34.0.0/aapt2
+[ -x "$AAPT2" ] || { echo "✗ 找不到 aapt2"; exit 1; }
 BADGING=$("$AAPT2" dump badging "$APK" 2>/dev/null | sed -n 1p)
 APK_NAME=$(echo "$BADGING" | sed -E "s/.*versionName='([^']+)'.*/\1/")
 APK_CODE=$(echo "$BADGING" | sed -E "s/.*versionCode='([0-9]+)'.*/\1/")
 WANT_CODE=$(( $(echo "$VER" | cut -d. -f1) * 10000 + $(echo "$VER" | cut -d. -f2) * 100 + $(echo "$VER" | cut -d. -f3) ))
-[ "$APK_NAME" = "$VER" ] && [ "$APK_CODE" = "$WANT_CODE" ] || { echo "✗ 包内版本 $APK_NAME($APK_CODE) ≠ 目标 $VER($WANT_CODE)"; exit 1; }
+[ "$APK_NAME" = "$VER" ] && [ "$APK_CODE" = "$WANT_CODE" ] || {
+  echo "✗ 包内版本 $APK_NAME($APK_CODE) ≠ 目标 $VER($WANT_CODE)"; exit 1; }
 
 BASE="cube-chat-$VER.apk"
 cp "$APK" "$BASE"
 SHA=$(sha256sum "$BASE" | cut -d' ' -f1)
 SIZE=$(stat -c%s "$BASE")
+
+TOKEN=${GH_TOKEN:-$(python3 - <<'PY'
+import re,pathlib
+p=pathlib.Path('/home/pro/.dsh/.credentials.yaml')
+m=re.search(r'(gh[pousr]_[A-Za-z0-9_]{20,})', p.read_text())
+print(m.group(1) if m else '')
+PY
+)}
+[ -n "$TOKEN" ] || { echo "✗ 没有 GitHub token"; exit 1; }
+
+api() { curl -sS -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" "$@"; }
+
+# 1) GitHub Release（幂等：已存在则复用）
+REL_ID=$(api "https://api.github.com/repos/$OWNER_REPO/releases/tags/v$VER" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('id',''))" 2>/dev/null || true)
+if [ -z "$REL_ID" ]; then
+  REL_ID=$(api -X POST "https://api.github.com/repos/$OWNER_REPO/releases" \
+    -d "{\"tag_name\":\"v$VER\",\"name\":\"Cube Chat $VER\",\"body\":\"$NOTE\"}" \
+    | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])")
+fi
+# 2) 上传资产（同名已存在则先删）
+api "https://api.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets" \
+  | python3 -c "import sys,json;[print(a['id']) for a in json.load(sys.stdin) if a['name']=='$BASE']" \
+  | while read -r AID; do [ -n "$AID" ] && api -X DELETE "https://api.github.com/repos/$OWNER_REPO/releases/assets/$AID" >/dev/null; done
+api -X POST -H "Content-Type: application/vnd.android.package-archive" \
+  --data-binary @"$BASE" \
+  "https://uploads.github.com/repos/$OWNER_REPO/releases/$REL_ID/assets?name=$BASE" >/dev/null
+
+# 3) CDN 镜像（sudo 免密）
+sudo mkdir -p "$CDN_DIR"
+sudo cp "$BASE" "$CDN_DIR/$BASE"
+sudo chmod 644 "$CDN_DIR/$BASE"
+
+# 4) 清单
 cat > android.json <<JSON
 {
   "version": "$VER",
   "versionCode": $WANT_CODE,
   "size": $SIZE,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v$VER/$BASE",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/$BASE",
+  "url": "https://github.com/$OWNER_REPO/releases/download/v$VER/$BASE",
+  "fallback": "$CDN_BASE/$BASE",
   "sha256": "$SHA",
   "notes": ["$NOTE"]
 }
 JSON
+
+# 5) 提交推送
 git add -A
 git commit -q -m "release $VER: $NOTE"
-git push origin main
-echo "✓ 发布 $VER ($WANT_CODE) sha256=$SHA size=$SIZE"
+git push -q origin main
+
+# 6) 校验三处一致
+R_SHA=$(curl -sSL --max-time 60 "https://github.com/$OWNER_REPO/releases/download/v$VER/$BASE" | sha256sum | cut -d' ' -f1)
+C_SHA=$(curl -sSL --max-time 60 "$CDN_BASE/$BASE" | sha256sum | cut -d' ' -f1)
+[ "$R_SHA" = "$SHA" ] || { echo "✗ Release 资产 sha 不一致"; exit 1; }
+[ "$C_SHA" = "$SHA" ] || { echo "✗ CDN 镜像 sha 不一致"; exit 1; }
+echo "✓ 发布 $VER ($WANT_CODE) size=$SIZE sha256=$SHA"
+echo "  release: https://github.com/$OWNER_REPO/releases/tag/v$VER"
+echo "  cdn:     $CDN_BASE/$BASE"
