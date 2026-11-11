@@ -1,9 +1,9 @@
 {
-  "version": "0.1.0",
-  "versionCode": 100,
-  "size": 15767026,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.0.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.0/cube-chat-0.1.0.apk",
-  "sha256": "93bde317ab66d95adaeca211ecde5167fa7f0953af68c23087521d5ed9c15d37",
-  "notes": ["首个版本：Compose 骨架 + 在线推送一键升级"]
+  "version": "0.1.2",
+  "versionCode": 102,
+  "size": 15769235,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.2.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.2/cube-chat-0.1.2.apk",
+  "sha256": "a10e22e725bbed30b31b09346044030534aa61cc55e084fd36bdaf287c7416b4",
+  "notes": ["修复安装链路：FileProvider+ACTION_VIEW（PackageInstaller 回调拿不到状态）"]
 }
