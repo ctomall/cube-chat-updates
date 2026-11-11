@@ -1,9 +1,9 @@
 {
-  "version": "0.1.5",
-  "versionCode": 105,
-  "size": 901796,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.5.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.5/cube-chat-0.1.5.apk",
-  "sha256": "69329ba47bd97501fad40f57d2d6fae1e2e73956b60b143024dd5bc2be3d69f3",
-  "notes": ["Host 推送上线：前台 SSE 秒级发现新版本"]
+  "version": "0.1.7",
+  "versionCode": 107,
+  "size": 902468,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.7.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.7/cube-chat-0.1.7.apk",
+  "sha256": "79c2eeaee8a8acf256060c19f8cb4c09e2cf3a08fd281d853c1f062593a4032a",
+  "notes": ["切正式签名线：OTA 包改为 CN=CTO Agent，debug 旧设备需卸载重装"]
 }
