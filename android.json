@@ -1,9 +1,9 @@
 {
-  "version": "0.1.2",
-  "versionCode": 102,
-  "size": 15769235,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.2.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.2/cube-chat-0.1.2.apk",
-  "sha256": "a10e22e725bbed30b31b09346044030534aa61cc55e084fd36bdaf287c7416b4",
-  "notes": ["修复安装链路：FileProvider+ACTION_VIEW（PackageInstaller 回调拿不到状态）"]
+  "version": "0.1.3",
+  "versionCode": 103,
+  "size": 15769243,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.3.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.3/cube-chat-0.1.3.apk",
+  "sha256": "2414bdff63b0de974f8d396ddcf7b963eb3343c5ed1dfc1abaf5d55cbb57d216",
+  "notes": ["应用内标题改为 CTO Agent"]
 }
