@@ -1,9 +1,9 @@
 {
-  "version": "0.1.4",
-  "versionCode": 104,
-  "size": 900092,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.4.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.4/cube-chat-0.1.4.apk",
-  "sha256": "b0426e9078ac181d7d24a82a6aaf728fb83d598a20198be03c56781161396d81",
-  "notes": ["R8 瘦身：15.7MB→0.9MB；OTA 全链路可用"]
+  "version": "0.1.5",
+  "versionCode": 105,
+  "size": 901796,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.5.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.5/cube-chat-0.1.5.apk",
+  "sha256": "69329ba47bd97501fad40f57d2d6fae1e2e73956b60b143024dd5bc2be3d69f3",
+  "notes": ["Host 推送上线：前台 SSE 秒级发现新版本"]
 }
