@@ -1,9 +1,9 @@
 {
-  "version": "0.1.3",
-  "versionCode": 103,
-  "size": 15769243,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.3.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.3/cube-chat-0.1.3.apk",
-  "sha256": "2414bdff63b0de974f8d396ddcf7b963eb3343c5ed1dfc1abaf5d55cbb57d216",
-  "notes": ["应用内标题改为 CTO Agent"]
+  "version": "0.1.4",
+  "versionCode": 104,
+  "size": 900092,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.4.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.4/cube-chat-0.1.4.apk",
+  "sha256": "b0426e9078ac181d7d24a82a6aaf728fb83d598a20198be03c56781161396d81",
+  "notes": ["R8 瘦身：15.7MB→0.9MB；OTA 全链路可用"]
 }
