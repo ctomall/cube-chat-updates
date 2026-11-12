@@ -1,9 +1,9 @@
 {
-  "version": "0.1.12",
-  "versionCode": 112,
-  "size": 1473139,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.12/cube-chat-0.1.12.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.12.apk",
-  "sha256": "9b254505d13331845e8a77752807a2a415107220573835d9fbe0079ca90f81fa",
-  "notes": ["真实对话链路：SSE 流式/停止/重试 + 服务商配置持久化 + ask-user + 图片预览"]
+  "version": "0.1.13",
+  "versionCode": 113,
+  "size": 1474027,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.13/cube-chat-0.1.13.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.13.apk",
+  "sha256": "8a973500d1fad9cd122c2940ad050345243d6d67593b3e8fdaaa0aa6d8a95bf4",
+  "notes": ["release 0.1.13"]
 }
