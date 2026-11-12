@@ -1,9 +1,9 @@
 {
-  "version": "0.1.8",
-  "versionCode": 108,
-  "size": 902508,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.8.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.8/cube-chat-0.1.8.apk",
-  "sha256": "2dd36c760e65d2000ca419b34660864934c02364a6300a05f7c7a0a99a810cbc",
-  "notes": ["修复退后台 SSE 连接未释放（cancel 替代 interrupt）"]
+  "version": "0.1.9",
+  "versionCode": 109,
+  "size": 1258688,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.9.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.9/cube-chat-0.1.9.apk",
+  "sha256": "a7e63985fe96b1e981f4191a2bafa4950fffac1c7ba739577e58dc8bc397a6e6",
+  "notes": ["Phase 1：会话列表/会话页/服务商管理 + 本地持久化"]
 }
