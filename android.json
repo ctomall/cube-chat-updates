@@ -1,11 +1,9 @@
 {
-  "version": "0.1.9",
-  "versionCode": 109,
-  "size": 1258688,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.9/cube-chat-0.1.9.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.9.apk",
-  "sha256": "a7e63985fe96b1e981f4191a2bafa4950fffac1c7ba739577e58dc8bc397a6e6",
-  "notes": [
-    "Phase 1：会话列表/会话页/服务商管理 + 本地持久化"
-  ]
+  "version": "0.1.10",
+  "versionCode": 110,
+  "size": 1267620,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.10/cube-chat-0.1.10.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.10.apk",
+  "sha256": "e93b927853a499c26d16ae7cca2d91bd505d8c7ca17946dac63c5ffbcdbd145d",
+  "notes": ["液态毛玻璃主题 + chatcube 版式对齐 + 流式对话"]
 }
