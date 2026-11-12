@@ -41,8 +41,8 @@ cat > android.json <<JSON
   "version": "$VER",
   "versionCode": $WANT_CODE,
   "size": $SIZE,
-  "url": "$CDN_BASE/$BASE",
-  "fallback": "https://github.com/$OWNER_REPO/releases/download/v$VER/$BASE",
+  "url": "https://github.com/$OWNER_REPO/releases/download/v$VER/$BASE",
+  "fallback": "$CDN_BASE/$BASE",
   "sha256": "$SHA",
   "notes": ["$NOTE"]
 }
