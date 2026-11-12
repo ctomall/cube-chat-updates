@@ -1,9 +1,9 @@
 {
-  "version": "0.1.7",
-  "versionCode": 107,
-  "size": 902468,
-  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.7.apk",
-  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.7/cube-chat-0.1.7.apk",
-  "sha256": "79c2eeaee8a8acf256060c19f8cb4c09e2cf3a08fd281d853c1f062593a4032a",
-  "notes": ["切正式签名线：OTA 包改为 CN=CTO Agent，debug 旧设备需卸载重装"]
+  "version": "0.1.8",
+  "versionCode": 108,
+  "size": 902508,
+  "url": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.8.apk",
+  "fallback": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.8/cube-chat-0.1.8.apk",
+  "sha256": "2dd36c760e65d2000ca419b34660864934c02364a6300a05f7c7a0a99a810cbc",
+  "notes": ["修复退后台 SSE 连接未释放（cancel 替代 interrupt）"]
 }
