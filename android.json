@@ -1,9 +1,9 @@
 {
-  "version": "0.12.0",
-  "versionCode": 1200,
-  "size": 1542491,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.0/cube-chat-0.12.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.0.apk",
-  "sha256": "66c7b161a09249594f5e7de0e9d9491275b299534e242f7d47c5ddb41231b3e9",
-  "notes": ["0.12.0：配对改用「手机远程」插件的 8 位码，配对后直接看到真实 DSH 会话与聊天记录"]
+  "version": "0.12.1",
+  "versionCode": 1201,
+  "size": 1682251,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.1/cube-chat-0.12.1.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.1.apk",
+  "sha256": "375f100906ecc527d32e0541e02fa513540fc91d902ad61e37505ad02fa41d0b",
+  "notes": ["0.12.1：App 内置扫码配对，直接扫「手机远程」页面的二维码即可完成配对"]
 }
