@@ -1,9 +1,9 @@
 {
-  "version": "0.11.1",
-  "versionCode": 1101,
-  "size": 1532311,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.11.1/cube-chat-0.11.1.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.11.1.apk",
-  "sha256": "7cae392ce0db00278fb5de6dc693e150d8e8b55e64f34be3ac4ac8dfc57af4eb",
-  "notes": ["0.11.1：公网入口并入 dsh.ila3.top/agent，不再单开子域名"]
+  "version": "0.12.0",
+  "versionCode": 1200,
+  "size": 1542491,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.0/cube-chat-0.12.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.0.apk",
+  "sha256": "66c7b161a09249594f5e7de0e9d9491275b299534e242f7d47c5ddb41231b3e9",
+  "notes": ["0.12.0：配对改用「手机远程」插件的 8 位码，配对后直接看到真实 DSH 会话与聊天记录"]
 }
