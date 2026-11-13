@@ -1,9 +1,9 @@
 {
-  "version": "0.6.0",
-  "versionCode": 600,
-  "size": 1521827,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.6.0/cube-chat-0.6.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.6.0.apk",
-  "sha256": "e9249b75dbccf88f1b0a5ed030a668debef05d1cbae31d222f801119dc2b396a",
-  "notes": ["0.6.0：远程会话显示工具调用卡片（工具名、状态、输出摘要），能看清 agent 在远端做了什么"]
+  "version": "0.7.0",
+  "versionCode": 700,
+  "size": 1521943,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.7.0/cube-chat-0.7.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.7.0.apk",
+  "sha256": "cc6517b67edccc841989038cdc26b03373c3d28d26da422d5308f5e3c1b1a03e",
+  "notes": ["0.7.0：远程接入手册；工具被沙箱拒绝/缺审批通道时给出明确状态，不再混成普通失败"]
 }
