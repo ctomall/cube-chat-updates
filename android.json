@@ -1,9 +1,9 @@
 {
-  "version": "0.10.1",
-  "versionCode": 1001,
-  "size": 1530943,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.10.1/cube-chat-0.10.1.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.10.1.apk",
-  "sha256": "5c106bbfd28558d15474da72f37d07bf80d717338d3886c124d26d4a009aa3b8",
-  "notes": ["0.10.1：对话页顶部按设备切换（本机/每台服务器）；打开服务器历史会话会回填聊天记录"]
+  "version": "0.11.0",
+  "versionCode": 1100,
+  "size": 1532319,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.11.0/cube-chat-0.11.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.11.0.apk",
+  "sha256": "f6981b27c9ab0124befcd5ead9a6309d01edf5e3d273a651b894519d5c07546a",
+  "notes": ["0.11.0：扫码配对——电脑上打开二维码页，手机扫一下自动完成配对"]
 }
