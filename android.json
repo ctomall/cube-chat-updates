@@ -1,9 +1,9 @@
 {
-  "version": "0.9.1",
-  "versionCode": 901,
-  "size": 1525271,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.9.1/cube-chat-0.9.1.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.9.1.apk",
-  "sha256": "bdfe0f25ff82e3fcbf33de96e30898f4714665f5bf569397900565a2eeabc609",
-  "notes": ["0.9.1：添加设备页增加常用机器（45/39）一键填充"]
+  "version": "0.9.3",
+  "versionCode": 903,
+  "size": 1524911,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.9.3/cube-chat-0.9.3.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.9.3.apk",
+  "sha256": "626fbd41f59c54a6c399e117b7d864b238e9eb2abd2a66546b6fdbd44c7891b6",
+  "notes": ["0.9.3：支持公网配对（agent.ila3.top），新增常用机器一键填充；修复只有 IPv4 的网络先试 IPv6 导致连接失败"]
 }
