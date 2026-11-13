@@ -1,9 +1,9 @@
 {
-  "version": "0.9.0",
-  "versionCode": 900,
-  "size": 1523387,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.9.0/cube-chat-0.9.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.9.0.apk",
-  "sha256": "f26ba1dfc43331fc9e961240bf18b0466457c33a6c118a68b9c84ff419cf8a43",
-  "notes": ["0.9.0：添加设备改为独立设计页面（三步：生成配对码 → 填网关 → 选权限），不再用系统弹窗"]
+  "version": "0.9.1",
+  "versionCode": 901,
+  "size": 1525271,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.9.1/cube-chat-0.9.1.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.9.1.apk",
+  "sha256": "bdfe0f25ff82e3fcbf33de96e30898f4714665f5bf569397900565a2eeabc609",
+  "notes": ["0.9.1：添加设备页增加常用机器（45/39）一键填充"]
 }
