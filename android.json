@@ -1,9 +1,9 @@
 {
-  "version": "0.1.26",
-  "versionCode": 126,
-  "size": 1474455,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.26/cube-chat-0.1.26.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.26.apk",
-  "sha256": "2bcca5fc85effdb3f50013bbc2144acf5d72b3aa6ec0a51f116319b21480967f",
-  "notes": ["0.1.26：修 0.1.25 消息盖住顶栏的问题（顶栏改到列表之上）；顶栏实心、输入区无通栏背景"]
+  "version": "0.2.0",
+  "versionCode": 200,
+  "size": 1504815,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.2.0/cube-chat-0.2.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.2.0.apk",
+  "sha256": "a40e5dd5f180d2779856c761151dcc0a4cedb6bddcb18dd9b16ab0bb112f7243",
+  "notes": ["0.2.0：服务商支持拉取模型、模型列表与搜索、全局/会话级默认模型、手动添加；API Key 用 Android Keystore 加密；新增 Bearer/Basic 认证方式"]
 }
