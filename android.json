@@ -1,9 +1,9 @@
 {
-  "version": "0.1.16",
-  "versionCode": 116,
-  "size": 1480419,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.16/cube-chat-0.1.16.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.16.apk",
-  "sha256": "54df8a0729185bd05ec24c31d0734b347de4376420c1754002e45e536aef7247",
-  "notes": ["release 0.1.16"]
+  "version": "0.1.17",
+  "versionCode": 117,
+  "size": 1484115,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.17/cube-chat-0.1.17.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.17.apk",
+  "sha256": "08240529e2f3af10ad1fba5210b603d7e5980214f0d85780a679d354654b28c8",
+  "notes": ["0.1.17 液态玻璃层"]
 }
