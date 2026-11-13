@@ -1,9 +1,9 @@
 {
-  "version": "0.8.0",
-  "versionCode": 800,
-  "size": 1523951,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.8.0/cube-chat-0.8.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.8.0.apk",
-  "sha256": "e3dadaa830cc49c32240fd9684bb4d84ff0cf21f86ccea6d0fa3205b82aa01d3",
-  "notes": ["0.8.0：远端逐次审批——工具提权时手机弹窗，允许才执行，2 分钟不响应自动拒绝"]
+  "version": "0.9.0",
+  "versionCode": 900,
+  "size": 1523387,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.9.0/cube-chat-0.9.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.9.0.apk",
+  "sha256": "f26ba1dfc43331fc9e961240bf18b0466457c33a6c118a68b9c84ff419cf8a43",
+  "notes": ["0.9.0：添加设备改为独立设计页面（三步：生成配对码 → 填网关 → 选权限），不再用系统弹窗"]
 }
