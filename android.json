@@ -1,9 +1,9 @@
 {
-  "version": "0.11.0",
-  "versionCode": 1100,
-  "size": 1532319,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.11.0/cube-chat-0.11.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.11.0.apk",
-  "sha256": "f6981b27c9ab0124befcd5ead9a6309d01edf5e3d273a651b894519d5c07546a",
-  "notes": ["0.11.0：扫码配对——电脑上打开二维码页，手机扫一下自动完成配对"]
+  "version": "0.11.1",
+  "versionCode": 1101,
+  "size": 1532311,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.11.1/cube-chat-0.11.1.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.11.1.apk",
+  "sha256": "7cae392ce0db00278fb5de6dc693e150d8e8b55e64f34be3ac4ac8dfc57af4eb",
+  "notes": ["0.11.1：公网入口并入 dsh.ila3.top/agent，不再单开子域名"]
 }
