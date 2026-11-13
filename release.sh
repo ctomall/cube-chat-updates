@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 原子发布（顺序修正版）：
-#   1) 版本核对 → 2) 写清单并提交推送 → 3) 在该提交上打 tag 建 Release → 4) 上传资产 → 5) CDN 镜像 → 6) 校验
+#   0) 签名核对 → 1) 版本核对 → 2) 写清单并提交推送 → 3) 在该提交上打 tag 建 Release → 4) 上传资产 → 5) CDN 镜像 → 6) 校验
 # 用法: ./release.sh <version> <apk> [note]      （SKIP_C_SHA=1 时用本机 CDN 文件核对 sha）
 set -euo pipefail
 VER=${1:?usage: ./release.sh <version> <apk> [note]}
@@ -19,6 +19,22 @@ APK_CODE=$(echo "$BADGING" | sed -E "s/.*versionCode='([0-9]+)'.*/\1/")
 WANT_CODE=$(( $(echo "$VER" | cut -d. -f1) * 10000 + $(echo "$VER" | cut -d. -f2) * 100 + $(echo "$VER" | cut -d. -f3) ))
 [ "$APK_NAME" = "$VER" ] && [ "$APK_CODE" = "$WANT_CODE" ] || {
   echo "✗ 包内版本 $APK_NAME($APK_CODE) ≠ 目标 $VER($WANT_CODE)"; exit 1; }
+
+# 签名闸门：必须是正式证书，且签名方案校验通过。
+# 缺这道检查时，没拿到 keystore 的构建机会产出 debug 签名包，脚本照发，
+# 已装用户的 OTA 链当场断掉（只能卸载重装）。
+EXPECTED_CERT_SHA256=9c899e3973c7c63797bdcc510e8c07fcfc28204bad6d1c8c25615a60ce76521a
+APKSIGNER=/home/pro/Android/Sdk/build-tools/34.0.0/apksigner
+[ -x "$APKSIGNER" ] || { echo "✗ 找不到 apksigner"; exit 1; }
+CERT_SHA=$("$APKSIGNER" verify --print-certs "$APK" 2>/dev/null | sed -n 's/.*certificate SHA-256 digest: //p' | head -1 | tr -d ' ')
+if [ "$CERT_SHA" != "$EXPECTED_CERT_SHA256" ]; then
+  echo "✗ 签名证书不符，拒绝发布"
+  echo "  实际：${CERT_SHA:-<读不出>}"
+  echo "  期望：$EXPECTED_CERT_SHA256（CN=CTO Agent, O=CTO）"
+  echo "  常见原因：构建机没有 ~/.android/keys/cto-agent-release.jks，回落到 debug 签名。"
+  exit 1
+fi
+"$APKSIGNER" verify "$APK" >/dev/null 2>&1 || { echo "✗ APK 签名校验不通过"; exit 1; }
 
 BASE="cube-chat-$VER.apk"
 cp "$APK" "$BASE"
