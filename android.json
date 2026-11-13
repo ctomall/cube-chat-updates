@@ -1,9 +1,9 @@
 {
-  "version": "0.1.24",
-  "versionCode": 124,
-  "size": 1474823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.24/cube-chat-0.1.24.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.24.apk",
-  "sha256": "1f9a7062086b07fb4af5d2c859ff927ab61bc202438ecc2eca78097979a015f1",
-  "notes": ["0.1.24：修复 API Key 留空被清空、Base URL 为空闪退、清单解析失败不回退；转屏不再丢流式状态；关闭系统备份；补启动图标；发布链路加签名闸门"]
+  "version": "0.1.25",
+  "versionCode": 125,
+  "size": 1474495,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.25/cube-chat-0.1.25.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.25.apk",
+  "sha256": "bda7ee633d06a6957dcfe30e51934f2decd053f3a70d4758e677c4d89f58513a",
+  "notes": ["0.1.25：聊天页顶栏改实心，消息不再从状态栏下透出；去掉输入胶囊下的通栏背景，输入区只留悬浮胶囊"]
 }
