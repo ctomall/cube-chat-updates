@@ -1,9 +1,9 @@
 {
-  "version": "0.7.0",
-  "versionCode": 700,
-  "size": 1521943,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.7.0/cube-chat-0.7.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.7.0.apk",
-  "sha256": "cc6517b67edccc841989038cdc26b03373c3d28d26da422d5308f5e3c1b1a03e",
-  "notes": ["0.7.0：远程接入手册；工具被沙箱拒绝/缺审批通道时给出明确状态，不再混成普通失败"]
+  "version": "0.8.0",
+  "versionCode": 800,
+  "size": 1523951,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.8.0/cube-chat-0.8.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.8.0.apk",
+  "sha256": "e3dadaa830cc49c32240fd9684bb4d84ff0cf21f86ccea6d0fa3205b82aa01d3",
+  "notes": ["0.8.0：远端逐次审批——工具提权时手机弹窗，允许才执行，2 分钟不响应自动拒绝"]
 }
