@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
-  "versionCode": 300,
-  "size": 1505423,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.3.0/cube-chat-0.3.0.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.3.0.apk",
-  "sha256": "9f7d1a3da2c4bb290f87bdd582c7147f50bd1a905316e0992b1559e9caa6fceb",
-  "notes": ["0.3.0：聊天后端抽象化（ChatBackend/ChatEvent），为接入 DSH 远程 Agent 铺路；直连行为不变"]
+  "version": "0.4.0",
+  "versionCode": 400,
+  "size": 1518559,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.4.0/cube-chat-0.4.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.4.0.apk",
+  "sha256": "c18e709461078933ed84727d080b4338ec6b3a91bc0a2dd352737f2348279038",
+  "notes": ["0.4.0：新增远程设备配对与 DSH 远程 Agent（手机发指令、远端执行），与直连模型会话共存"]
 }
