@@ -1,9 +1,9 @@
 {
-  "version": "0.1.22",
-  "versionCode": 122,
-  "size": 1478191,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.22/cube-chat-0.1.22.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.22.apk",
-  "sha256": "5ae016825da05f18f2f699bc08d4532aabbcc934ac4fab7f8740ef3d9bf56615",
-  "notes": ["0.1.22 先量 Cube Chat 官方截图再定材质：卡片=surface+1dp hairline，透明只留在浮起栏（顶栏/胶囊 veil 5–6%），撤掉极光光斑/点光边框/青粉流光"]
+  "version": "0.1.23",
+  "versionCode": 123,
+  "size": 1478687,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.23/cube-chat-0.1.23.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.23.apk",
+  "sha256": "a8db32937e607b3d3698ebc826fb659ce1053f353daecb6c7f6f6f8f8a01900e",
+  "notes": ["0.1.23 聊天页头部与底部改成浮起透明：顶栏/底栏 veil 叠在列表上，内容从栏下滚过并透上来"]
 }
