@@ -1,9 +1,9 @@
 {
-  "version": "0.1.21",
-  "versionCode": 121,
-  "size": 1483587,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.21/cube-chat-0.1.21.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.21.apk",
-  "sha256": "624c36c5c6790daa69eca1dd3e07a1ef9c8f8d8e339b1b907d98fb7132eefc1d",
-  "notes": ["0.1.21 照 Cube Chat 重做液态玻璃：点光边框 + 青/粉双缘流动光（4000ms）"]
+  "version": "0.1.22",
+  "versionCode": 122,
+  "size": 1478191,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.1.22/cube-chat-0.1.22.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.1.22.apk",
+  "sha256": "5ae016825da05f18f2f699bc08d4532aabbcc934ac4fab7f8740ef3d9bf56615",
+  "notes": ["0.1.22 先量 Cube Chat 官方截图再定材质：卡片=surface+1dp hairline，透明只留在浮起栏（顶栏/胶囊 veil 5–6%），撤掉极光光斑/点光边框/青粉流光"]
 }
