@@ -1,9 +1,9 @@
 {
-  "version": "0.12.2",
-  "versionCode": 1202,
-  "size": 1684115,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.2/cube-chat-0.12.2.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.2.apk",
-  "sha256": "9c8689d08964a069886e3eb59000e820a55a858eacc3e26651edb34fc0ca58ed",
-  "notes": ["0.12.2：扫码竖屏；支持自签名证书与内网 http 配对，手动配对失败的问题已修"]
+  "version": "0.12.3",
+  "versionCode": 1203,
+  "size": 1684107,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.3/cube-chat-0.12.3.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.3.apk",
+  "sha256": "25c591f730fe93fda18605cb6e3ee56ca56e7227ec2185528ebd446255875352",
+  "notes": ["0.12.3：更新检查改成 CDN 优先并缩短超时，打开 App 一两秒就能看到新版本"]
 }
