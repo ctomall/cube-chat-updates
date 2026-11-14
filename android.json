@@ -1,9 +1,9 @@
 {
-  "version": "0.12.59",
-  "versionCode": 1259,
+  "version": "0.12.60",
+  "versionCode": 1260,
   "size": 1969207,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.59/cube-chat-0.12.59.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.59.apk",
-  "sha256": "3b9e29a29e5d83401aef13040ba7d69efcdcb41ec93335523bfb733356a595c2",
-  "notes": ["0.12.59：审批与反问会推送通知"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.60/cube-chat-0.12.60.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.60.apk",
+  "sha256": "094df1508b44cb56cd5d4f907e0b2fe946ae4554309b04b7becf516abe4b0236",
+  "notes": ["0.12.60：远程事件通道断线自动重连"]
 }
