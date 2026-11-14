@@ -1,9 +1,9 @@
 {
-  "version": "0.12.23",
-  "versionCode": 1223,
-  "size": 1903671,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.23/cube-chat-0.12.23.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.23.apk",
-  "sha256": "42fb30d5adadc317eda1c10cedf6e6368ca9dff124b8c686192b7eeee0aa6b2f",
-  "notes": ["0.12.23：接入 DSH 事件通道，远程回复变成事件驱动刷新；设备连不上时给出可重试提示"]
+  "version": "0.12.24",
+  "versionCode": 1224,
+  "size": 1920055,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.24/cube-chat-0.12.24.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.24.apk",
+  "sha256": "4840af831a9a79535fb9a1165307dcc264428a666361842223a4dd18231e3ea7",
+  "notes": ["0.12.24：订阅 DSH 事件流，审批请求会在远程会话页顶部提示"]
 }
