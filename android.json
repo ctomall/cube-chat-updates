@@ -1,9 +1,9 @@
 {
-  "version": "0.12.24",
-  "versionCode": 1224,
+  "version": "0.12.25",
+  "versionCode": 1225,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.24/cube-chat-0.12.24.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.24.apk",
-  "sha256": "4840af831a9a79535fb9a1165307dcc264428a666361842223a4dd18231e3ea7",
-  "notes": ["0.12.24：订阅 DSH 事件流，审批请求会在远程会话页顶部提示"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.25/cube-chat-0.12.25.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.25.apk",
+  "sha256": "6edeaa76a4faa495225ca51512b07a2e516b03d85f9aa10a73956fb666336dd0",
+  "notes": ["0.12.25：远程会话支持回答 Agent 的反问（选项按钮直接作答）"]
 }
