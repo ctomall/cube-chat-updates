@@ -1,9 +1,9 @@
 {
-  "version": "0.12.58",
-  "versionCode": 1258,
-  "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.58/cube-chat-0.12.58.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.58.apk",
-  "sha256": "055052e814bf245b93d9468c05b51eda86dee78585207071ac1cf77106b06c4d",
-  "notes": ["0.12.58：会话可导出为 Markdown"]
+  "version": "0.12.59",
+  "versionCode": 1259,
+  "size": 1969207,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.59/cube-chat-0.12.59.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.59.apk",
+  "sha256": "3b9e29a29e5d83401aef13040ba7d69efcdcb41ec93335523bfb733356a595c2",
+  "notes": ["0.12.59：审批与反问会推送通知"]
 }
