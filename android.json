@@ -1,9 +1,9 @@
 {
-  "version": "0.12.53",
-  "versionCode": 1253,
+  "version": "0.12.54",
+  "versionCode": 1254,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.53/cube-chat-0.12.53.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.53.apk",
-  "sha256": "32cd76763c63bf5fa62d41f80c693a49f9558276e30dff33aa6c2090476a97a5",
-  "notes": ["0.12.53：修复本地会话不显示思考过程（reasoning 没进循环）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.54/cube-chat-0.12.54.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.54.apk",
+  "sha256": "c649c491ed58770b053fc4442c19e990e2863b9a7e8be6e4790cd33987ee0e32",
+  "notes": ["0.12.54：本地选图失败会给出明确原因（不再静默）"]
 }
