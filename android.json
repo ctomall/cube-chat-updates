@@ -1,9 +1,9 @@
 {
-  "version": "0.12.43",
-  "versionCode": 1243,
+  "version": "0.12.44",
+  "versionCode": 1244,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.43/cube-chat-0.12.43.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.43.apk",
-  "sha256": "7503d76f352c46930f55664c60bacb4f4a1d25d48e559b3bde7897ed8bd3c8f5",
-  "notes": ["0.12.43：本地会话可以发图片了（OpenAI 兼容 image_url）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.44/cube-chat-0.12.44.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.44.apk",
+  "sha256": "d9c15909b11cc6adeb05daba82074bd2a62442b88a55d0b7471ab1e819a9304c",
+  "notes": ["0.12.44：会话支持长按重命名（远程会话会同步到服务器）"]
 }
