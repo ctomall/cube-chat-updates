@@ -1,9 +1,9 @@
 {
-  "version": "0.12.60",
-  "versionCode": 1260,
+  "version": "0.12.61",
+  "versionCode": 1261,
   "size": 1969207,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.60/cube-chat-0.12.60.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.60.apk",
-  "sha256": "094df1508b44cb56cd5d4f907e0b2fe946ae4554309b04b7becf516abe4b0236",
-  "notes": ["0.12.60：远程事件通道断线自动重连"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.61/cube-chat-0.12.61.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.61.apk",
+  "sha256": "20f11d0d4e0ee14cad874cf0672d824b2b3b905095c4aa317d02f9eef8062f61",
+  "notes": ["0.12.61：远程会话可查看产物清单（路径可复制）"]
 }
