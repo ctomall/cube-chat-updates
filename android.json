@@ -1,9 +1,9 @@
 {
-  "version": "0.12.31",
-  "versionCode": 1231,
-  "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.31/cube-chat-0.12.31.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.31.apk",
-  "sha256": "b5a808d15b8143b9392e80a97b4179e334f61bc1a0a6389683563b97b76586f1",
-  "notes": ["0.12.31：远程会话的助手消息支持复制与重试"]
+  "version": "0.12.32",
+  "versionCode": 1232,
+  "size": 1936439,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.32/cube-chat-0.12.32.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.32.apk",
+  "sha256": "1962167295d5a9ff1e704cfbaf1282132a3cbd9bab6b68888538739eaa49ab7c",
+  "notes": ["0.12.32：会话列表支持手动刷新（右上角刷新按钮）"]
 }
