@@ -1,9 +1,9 @@
 {
-  "version": "0.12.64",
-  "versionCode": 1264,
+  "version": "0.12.65",
+  "versionCode": 1265,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.64/cube-chat-0.12.64.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.64.apk",
-  "sha256": "4d538a797f24c70bcbf3acf8794ceffb7b943db921440e824c2eb93258d0aca8",
-  "notes": ["0.12.64：消息分享可用，朗读接入系统 TTS"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.65/cube-chat-0.12.65.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.65.apk",
+  "sha256": "779150b6885f000c3d31dd437537769917f671f567d504442425b707edc007da",
+  "notes": ["0.12.65：会话搜索支持消息全文，命中处显示上下文"]
 }
