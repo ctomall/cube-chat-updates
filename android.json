@@ -1,9 +1,9 @@
 {
-  "version": "0.12.45",
-  "versionCode": 1245,
+  "version": "0.12.46",
+  "versionCode": 1246,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.45/cube-chat-0.12.45.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.45.apk",
-  "sha256": "80f2a13b503e0466739635d7102ea3f50c4d092a0d8b6d433bef2e4a0d8c0a42",
-  "notes": ["0.12.45：收件箱里的远程任务可点开；非 OpenAI 兼容接口发图会给明确提示"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.46/cube-chat-0.12.46.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.46.apk",
+  "sha256": "d488ab32149c1de32c8d114a6677ef32444e6717124db95891ddcb8813b4c9a8",
+  "notes": ["0.12.46：对话页顶栏显示会话/运行中统计；补多模态请求体单测"]
 }
