@@ -1,9 +1,9 @@
 {
-  "version": "0.12.17",
-  "versionCode": 1217,
-  "size": 1870903,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.17/cube-chat-0.12.17.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.17.apk",
-  "sha256": "414c95b1945a9f0c18d089287f9c20fc17c66e26067badbe5119bc4f6a9382f4",
-  "notes": ["0.12.17：代码块渲染成深色代码卡（语言标签/行数/复制/折叠）"]
+  "version": "0.12.18",
+  "versionCode": 1218,
+  "size": 1887287,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.18/cube-chat-0.12.18.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.18.apk",
+  "sha256": "9a80d634f22bd0406219b8b7dfaf303a59a42b0c8668a955e0391ce9f92812a4",
+  "notes": ["0.12.18：助手正文渲染 Markdown（标题/列表/引用/行内代码/链接），表格暂时降级为等宽文本"]
 }
