@@ -1,9 +1,9 @@
 {
-  "version": "0.12.57",
-  "versionCode": 1257,
+  "version": "0.12.58",
+  "versionCode": 1258,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.57/cube-chat-0.12.57.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.57.apk",
-  "sha256": "b0b185d30c92d4bef5ff889debbd71db355f93ac3b15b9fbe1fa5339283e6697",
-  "notes": ["0.12.57：修复本地选图（换 PickVisualMedia、预览可见、data URI 能显示）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.58/cube-chat-0.12.58.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.58.apk",
+  "sha256": "055052e814bf245b93d9468c05b51eda86dee78585207071ac1cf77106b06c4d",
+  "notes": ["0.12.58：会话可导出为 Markdown"]
 }
