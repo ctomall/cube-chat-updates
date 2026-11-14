@@ -1,9 +1,9 @@
 {
-  "version": "0.12.32",
-  "versionCode": 1232,
+  "version": "0.12.33",
+  "versionCode": 1233,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.32/cube-chat-0.12.32.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.32.apk",
-  "sha256": "1962167295d5a9ff1e704cfbaf1282132a3cbd9bab6b68888538739eaa49ab7c",
-  "notes": ["0.12.32：会话列表支持手动刷新（右上角刷新按钮）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.33/cube-chat-0.12.33.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.33.apk",
+  "sha256": "236e676e29f0716dfdb8ee90859743efddb9f924593d29fd14b0ae59ec3986f0",
+  "notes": ["0.12.33：远程会话可发送图片，历史里的图片也会显示"]
 }
