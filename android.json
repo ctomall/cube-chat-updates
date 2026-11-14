@@ -1,9 +1,9 @@
 {
-  "version": "0.12.41",
-  "versionCode": 1241,
-  "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.41/cube-chat-0.12.41.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.41.apk",
-  "sha256": "99ba335c88856d606169d969de2dc4acc55a78d78faf97fec768f61bfa2459b9",
-  "notes": ["0.12.41：新增工作区 Tab（按目录归并会话），底栏四个 Tab 齐了"]
+  "version": "0.12.42",
+  "versionCode": 1242,
+  "size": 1952823,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.42/cube-chat-0.12.42.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.42.apk",
+  "sha256": "e6ea0026b2f07f1d72d50703f65a0f514a6dbc126e249e4c6e0829371f537bae",
+  "notes": ["0.12.42：收件箱和运行横幅统一统计本机 + 远程任务"]
 }
