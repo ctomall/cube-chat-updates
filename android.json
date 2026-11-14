@@ -1,9 +1,9 @@
 {
-  "version": "0.12.29",
-  "versionCode": 1229,
+  "version": "0.12.30",
+  "versionCode": 1230,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.29/cube-chat-0.12.29.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.29.apk",
-  "sha256": "0aa7f676d1e85adf275b878bc16f68511a6b8f645c7f52ddf366bc62884d9288",
-  "notes": ["0.12.29：设备可以改入口地址（隧道域名变了不用重新添加设备）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.30/cube-chat-0.12.30.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.30.apk",
+  "sha256": "f1f81e7d4dd127f1de009de25bfe0e67b97c396222d6d2f082bfef3463fb5918",
+  "notes": ["0.12.30：配对页改用手机远程的固定入口（39 内网/公网、45 内网），不再引导填临时隧道"]
 }
