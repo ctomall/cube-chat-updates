@@ -1,9 +1,9 @@
 {
-  "version": "0.12.35",
-  "versionCode": 1235,
+  "version": "0.12.36",
+  "versionCode": 1236,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.35/cube-chat-0.12.35.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.35.apk",
-  "sha256": "5ddbf2781890a94981ba75ab6a07e33fea202eafb87f94765cc8b548f64a5255",
-  "notes": ["0.12.35：修复输入框点击不展开；加号改为附件菜单"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.36/cube-chat-0.12.36.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.36.apk",
+  "sha256": "72692a4732f11f6de44ebcd8b6ceb0fb43f642f196b29ceaf52d3071cf9e5af1",
+  "notes": ["0.12.36：关闭输入法自动收回到单行输入框"]
 }
