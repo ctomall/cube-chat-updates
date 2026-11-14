@@ -1,9 +1,9 @@
 {
-  "version": "0.12.38",
-  "versionCode": 1238,
+  "version": "0.12.39",
+  "versionCode": 1239,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.38/cube-chat-0.12.38.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.38.apk",
-  "sha256": "0ea848c5fdeaa0206c9059980dda52e32304ff46d3c9852deeb8f81b49412df8",
-  "notes": ["0.12.38：本地会话输入框与远程统一（收起/展开两态）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.39/cube-chat-0.12.39.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.39.apk",
+  "sha256": "60071a9ab3783fe5f58ee49de2948571cbdc7c2adabf7f2bf524ed8c97c3a39b",
+  "notes": ["0.12.39：新增收件箱 Tab，正在跑的任务集中在这里"]
 }
