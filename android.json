@@ -1,9 +1,9 @@
 {
-  "version": "0.12.15",
-  "versionCode": 1215,
+  "version": "0.12.16",
+  "versionCode": 1216,
   "size": 1870903,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.15/cube-chat-0.12.15.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.15.apk",
-  "sha256": "e43c4662de43f7f021e13b3312db364a997e9289fccc47049e8d74846730728b",
-  "notes": ["0.12.15：底栏改用 Haze 硬件加速的背景模糊，去掉自建截屏方案"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.16/cube-chat-0.12.16.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.16.apk",
+  "sha256": "2f74025bb643237836785efd038710722b9b1e1594adf542fa602d68b4a443f2",
+  "notes": ["0.12.16：对话卡片统一成一套壳 + 状态胶囊（运行/完成/失败/待审批），工具卡可折叠"]
 }
