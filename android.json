@@ -1,9 +1,9 @@
 {
-  "version": "0.12.46",
-  "versionCode": 1246,
+  "version": "0.12.47",
+  "versionCode": 1247,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.46/cube-chat-0.12.46.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.46.apk",
-  "sha256": "d488ab32149c1de32c8d114a6677ef32444e6717124db95891ddcb8813b4c9a8",
-  "notes": ["0.12.46：对话页顶栏显示会话/运行中统计；补多模态请求体单测"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.47/cube-chat-0.12.47.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.47.apk",
+  "sha256": "86a928b9a885b05e3e2d8062a1a02c924c4f8cb5544d53fa662e81725e22fea9",
+  "notes": ["0.12.47：审批卡抽成独立组件并补单测（应答报文可验证）"]
 }
