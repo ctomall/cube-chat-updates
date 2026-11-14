@@ -1,9 +1,9 @@
 {
-  "version": "0.12.48",
-  "versionCode": 1248,
+  "version": "0.12.49",
+  "versionCode": 1249,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.48/cube-chat-0.12.48.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.48.apk",
-  "sha256": "41cc8547c0b6f4c591934b500df1ab2eb17fb5f7d06b5115a653c60d9f93546d",
-  "notes": ["0.12.48：任务完成通知，设置里可一键测试"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.49/cube-chat-0.12.49.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.49.apk",
+  "sha256": "57edfdf6261b8cbb01e53bb45dd04be49e0e4524e1de2c96e94214e2c8b445a0",
+  "notes": ["0.12.49：点通知直接回到对应会话；远程任务完成也会通知"]
 }
