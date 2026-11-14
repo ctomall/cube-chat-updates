@@ -1,9 +1,9 @@
 {
-  "version": "0.12.62",
-  "versionCode": 1262,
+  "version": "0.12.63",
+  "versionCode": 1263,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.62/cube-chat-0.12.62.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.62.apk",
-  "sha256": "dfe5d1aa78ed9577f6b0542d353e012681674ef7bc9ada12de3ccbe4d49439ab",
-  "notes": ["0.12.62：任务运行时前台服务保活"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.63/cube-chat-0.12.63.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.63.apk",
+  "sha256": "cf9f9fc0608e0daa2fc775ffaa85eb4aa142814647d2c29b13a9dd927fea2f97",
+  "notes": ["0.12.63：输入框支持语音输入（系统识别，中文）"]
 }
