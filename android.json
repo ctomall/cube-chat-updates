@@ -1,9 +1,9 @@
 {
-  "version": "0.12.66",
-  "versionCode": 1266,
+  "version": "0.12.67",
+  "versionCode": 1267,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.66/cube-chat-0.12.66.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.66.apk",
-  "sha256": "73ea07b6207b6e483d19b0f7903920a7962b0f6936944d3d18a48afc5d04af36",
-  "notes": ["0.12.66：远程会话可看执行轨迹（轮次 + 耗时统计）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.67/cube-chat-0.12.67.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.67.apk",
+  "sha256": "29d47102b15fb594ff27845b9ad8e40a17179403a15ec267c9091be8097cfc36",
+  "notes": ["0.12.67：轨迹可以点进某一轮看事件明细"]
 }
