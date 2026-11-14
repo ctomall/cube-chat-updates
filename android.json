@@ -1,9 +1,9 @@
 {
-  "version": "0.12.6",
-  "versionCode": 1206,
-  "size": 1688035,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.6/cube-chat-0.12.6.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.6.apk",
-  "sha256": "bd6aba8e50f195edcc007a5472bb23daeda5d89e98ffe9b1cf23452840885b7c",
-  "notes": ["0.12.6：聊天页隐藏底部胶囊导航；远程会话页可直接发消息"]
+  "version": "0.12.7",
+  "versionCode": 1207,
+  "size": 1687967,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.7/cube-chat-0.12.7.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.7.apk",
+  "sha256": "d9775516976b2445025ba2802b569b9af8bc7b016b905f90893e9fa4e996e4c8",
+  "notes": ["0.12.7：底部胶囊改成滑动白色滑块，切换 Tab 时来回滑动"]
 }
