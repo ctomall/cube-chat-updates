@@ -1,9 +1,9 @@
 {
-  "version": "0.12.20",
-  "versionCode": 1220,
+  "version": "0.12.21",
+  "versionCode": 1221,
   "size": 1903671,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.20/cube-chat-0.12.20.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.20.apk",
-  "sha256": "fb771f26bf41b2beca1c5616a8d876b0796abb409f26195c922438859ff1c10b",
-  "notes": ["0.12.20：远程会话和本机会话统一视觉（同一套气泡/卡片/Markdown/代码卡）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.21/cube-chat-0.12.21.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.21.apk",
+  "sha256": "31b4a5fe24835fe005cb0b4ca6b4e8209dad05053c98efeb9284dc23ae0a746f",
+  "notes": ["0.12.21：远程会话页支持新建会话与重命名"]
 }
