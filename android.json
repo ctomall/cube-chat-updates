@@ -1,9 +1,9 @@
 {
-  "version": "0.12.40",
-  "versionCode": 1240,
+  "version": "0.12.41",
+  "versionCode": 1241,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.40/cube-chat-0.12.40.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.40.apk",
-  "sha256": "60636523a9d95a9f1128ca69ff1b44ba0145c6f0636c9c1828f3227e5b5d34f8",
-  "notes": ["0.12.40：对话页运行横幅 + 设置页「当前」状态区"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.41/cube-chat-0.12.41.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.41.apk",
+  "sha256": "99ba335c88856d606169d969de2dc4acc55a78d78faf97fec768f61bfa2459b9",
+  "notes": ["0.12.41：新增工作区 Tab（按目录归并会话），底栏四个 Tab 齐了"]
 }
