@@ -1,9 +1,9 @@
 {
-  "version": "0.12.12",
-  "versionCode": 1212,
-  "size": 1691947,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.12/cube-chat-0.12.12.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.12.apk",
-  "sha256": "1c8d28a39e503abdb343d8fb68d85955b9cf891b364c4cf4bf89fccc031dd02b",
-  "notes": ["0.12.12：底栏液态玻璃加入真实背景模糊（PixelCopy 取样 + 模糊底色）"]
+  "version": "0.12.13",
+  "versionCode": 1213,
+  "size": 1692671,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.13/cube-chat-0.12.13.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.13.apk",
+  "sha256": "0245fc0ac375ddbca8866f1eeaed12a39278920f3e18be0d27000f975c4307f2",
+  "notes": ["0.12.13：底栏做成水滴质感——中心更糊、边缘水纹、左上高光"]
 }
