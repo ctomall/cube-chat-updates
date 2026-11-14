@@ -1,9 +1,9 @@
 {
-  "version": "0.12.26",
-  "versionCode": 1226,
+  "version": "0.12.27",
+  "versionCode": 1227,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.26/cube-chat-0.12.26.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.26.apk",
-  "sha256": "28a1c924c9f6f238a3a4c3a9d463d4e16b33273ff8853fa514835c6f177f5a42",
-  "notes": ["0.12.26：远程会话可以在手机上应答审批（允许一次 / 拒绝）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.27/cube-chat-0.12.27.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.27.apk",
+  "sha256": "c1f2735e462003323c8e3c8177c3d0dc8cc51c19881d2100e7995b6696fafd02",
+  "notes": ["0.12.27：远程会话显示思考过程（可折叠）"]
 }
