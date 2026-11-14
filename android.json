@@ -1,9 +1,9 @@
 {
-  "version": "0.12.22",
-  "versionCode": 1222,
+  "version": "0.12.23",
+  "versionCode": 1223,
   "size": 1903671,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.22/cube-chat-0.12.22.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.22.apk",
-  "sha256": "b508b6b3a5be8b26eab2f103b9f98662a839275cbc25d510eff54d0a9b892257",
-  "notes": ["0.12.22：远程会话支持停止生成，错误提示按原因区分"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.23/cube-chat-0.12.23.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.23.apk",
+  "sha256": "42fb30d5adadc317eda1c10cedf6e6368ca9dff124b8c686192b7eeee0aa6b2f",
+  "notes": ["0.12.23：接入 DSH 事件通道，远程回复变成事件驱动刷新；设备连不上时给出可重试提示"]
 }
