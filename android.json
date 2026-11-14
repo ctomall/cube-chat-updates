@@ -1,9 +1,9 @@
 {
-  "version": "0.12.33",
-  "versionCode": 1233,
+  "version": "0.12.34",
+  "versionCode": 1234,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.33/cube-chat-0.12.33.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.33.apk",
-  "sha256": "236e676e29f0716dfdb8ee90859743efddb9f924593d29fd14b0ae59ec3986f0",
-  "notes": ["0.12.33：远程会话可发送图片，历史里的图片也会显示"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.34/cube-chat-0.12.34.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.34.apk",
+  "sha256": "135182c268f2ae1e251a69592386309ee88c75c75235c1bc42afda2a06495f8d",
+  "notes": ["0.12.34：输入框改成收起/展开两态，展开后能看到权限、模型和进度"]
 }
