@@ -1,9 +1,9 @@
 {
-  "version": "0.12.50",
-  "versionCode": 1250,
+  "version": "0.12.51",
+  "versionCode": 1251,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.50/cube-chat-0.12.50.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.50.apk",
-  "sha256": "eb0c34026512ca4283bad364fb64dac90e4fe6d7dcfc5a7ba384a1744f12efaa",
-  "notes": ["0.12.50：修复任务完成通知重复堆叠；主动停止不再误报完成"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.51/cube-chat-0.12.51.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.51.apk",
+  "sha256": "884be184e1303bb6346ff2e9071cb4e0e608e473a5d1cbe57bf41da84f1023f8",
+  "notes": ["0.12.51：修复完成通知没有合并的问题（同一会话只保留最新一条）"]
 }
