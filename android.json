@@ -1,9 +1,9 @@
 {
-  "version": "0.12.61",
-  "versionCode": 1261,
-  "size": 1969207,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.61/cube-chat-0.12.61.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.61.apk",
-  "sha256": "20f11d0d4e0ee14cad874cf0672d824b2b3b905095c4aa317d02f9eef8062f61",
-  "notes": ["0.12.61：远程会话可查看产物清单（路径可复制）"]
+  "version": "0.12.62",
+  "versionCode": 1262,
+  "size": 1969295,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.62/cube-chat-0.12.62.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.62.apk",
+  "sha256": "dfe5d1aa78ed9577f6b0542d353e012681674ef7bc9ada12de3ccbe4d49439ab",
+  "notes": ["0.12.62：任务运行时前台服务保活"]
 }
