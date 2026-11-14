@@ -1,9 +1,9 @@
 {
-  "version": "0.12.3",
-  "versionCode": 1203,
-  "size": 1684107,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.3/cube-chat-0.12.3.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.3.apk",
-  "sha256": "25c591f730fe93fda18605cb6e3ee56ca56e7227ec2185528ebd446255875352",
-  "notes": ["0.12.3：更新检查改成 CDN 优先并缩短超时，打开 App 一两秒就能看到新版本"]
+  "version": "0.12.4",
+  "versionCode": 1204,
+  "size": 1686627,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.4/cube-chat-0.12.4.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.4.apk",
+  "sha256": "7602039f13fcf18abfede60018d4f86afacfa3da0cc858b4913e6b3f919eaf16",
+  "notes": ["0.12.4：远程会话页与本机统一；列表底部不再被悬浮 Tab 压住"]
 }
