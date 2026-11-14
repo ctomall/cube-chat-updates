@@ -1,9 +1,9 @@
 {
-  "version": "0.12.13",
-  "versionCode": 1213,
-  "size": 1692671,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.13/cube-chat-0.12.13.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.13.apk",
-  "sha256": "0245fc0ac375ddbca8866f1eeaed12a39278920f3e18be0d27000f975c4307f2",
-  "notes": ["0.12.13：底栏做成水滴质感——中心更糊、边缘水纹、左上高光"]
+  "version": "0.12.14",
+  "versionCode": 1214,
+  "size": 1693059,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.14/cube-chat-0.12.14.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.14.apk",
+  "sha256": "c13d258f38ccd1c246ec3bd250cea7447f6671663b4cc2cede98b3c78a48cd53",
+  "notes": ["0.12.14：水滴质感加强——中心更糊、边缘水纹更明显、加横向透镜畸变"]
 }
