@@ -1,9 +1,9 @@
 {
-  "version": "0.12.8",
-  "versionCode": 1208,
-  "size": 1688627,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.8/cube-chat-0.12.8.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.8.apk",
-  "sha256": "fa64307b3bb21694b059a2e126691c93cee2d0e0db27e71240c1650a14874554",
-  "notes": ["0.12.8：新建会话的加号改成白色玻璃圆钮，与底部滑块统一"]
+  "version": "0.12.9",
+  "versionCode": 1209,
+  "size": 1689459,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.9/cube-chat-0.12.9.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.9.apk",
+  "sha256": "6f8e89dd5452b2bd94875bab9aa5adaf7a9e60e71bce5edde292f953fff94c8d",
+  "notes": ["0.12.9：底栏滑块改成真胶囊并加液态边缘（渐变描边 + 内高光 + 光晕）"]
 }
