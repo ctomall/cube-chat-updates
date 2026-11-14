@@ -1,9 +1,9 @@
 {
-  "version": "0.12.65",
-  "versionCode": 1265,
+  "version": "0.12.66",
+  "versionCode": 1266,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.65/cube-chat-0.12.65.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.65.apk",
-  "sha256": "779150b6885f000c3d31dd437537769917f671f567d504442425b707edc007da",
-  "notes": ["0.12.65：会话搜索支持消息全文，命中处显示上下文"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.66/cube-chat-0.12.66.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.66.apk",
+  "sha256": "73ea07b6207b6e483d19b0f7903920a7962b0f6936944d3d18a48afc5d04af36",
+  "notes": ["0.12.66：远程会话可看执行轨迹（轮次 + 耗时统计）"]
 }
