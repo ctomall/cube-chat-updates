@@ -1,9 +1,9 @@
 {
-  "version": "0.12.19",
-  "versionCode": 1219,
-  "size": 1887287,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.19/cube-chat-0.12.19.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.19.apk",
-  "sha256": "b81e9667e38145e886dddfd56311a7a4df7aa0b9834ff6355313530407865316",
-  "notes": ["0.12.19：动效补齐——流式光标、卡片入场、运行中呼吸、折叠动画"]
+  "version": "0.12.20",
+  "versionCode": 1220,
+  "size": 1903671,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.20/cube-chat-0.12.20.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.20.apk",
+  "sha256": "fb771f26bf41b2beca1c5616a8d876b0796abb409f26195c922438859ff1c10b",
+  "notes": ["0.12.20：远程会话和本机会话统一视觉（同一套气泡/卡片/Markdown/代码卡）"]
 }
