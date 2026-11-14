@@ -1,9 +1,9 @@
 {
-  "version": "0.12.28",
-  "versionCode": 1228,
+  "version": "0.12.29",
+  "versionCode": 1229,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.28/cube-chat-0.12.28.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.28.apk",
-  "sha256": "a4f05e33c29ea7b1d8fc25f3effdaf3a2a57d8e2fb6f1d8a19d97df5c0917f64",
-  "notes": ["0.12.28：远程会话页可以切换模型（点副标题打开列表）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.29/cube-chat-0.12.29.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.29.apk",
+  "sha256": "0aa7f676d1e85adf275b878bc16f68511a6b8f645c7f52ddf366bc62884d9288",
+  "notes": ["0.12.29：设备可以改入口地址（隧道域名变了不用重新添加设备）"]
 }
