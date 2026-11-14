@@ -1,9 +1,9 @@
 {
-  "version": "0.12.25",
-  "versionCode": 1225,
+  "version": "0.12.26",
+  "versionCode": 1226,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.25/cube-chat-0.12.25.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.25.apk",
-  "sha256": "6edeaa76a4faa495225ca51512b07a2e516b03d85f9aa10a73956fb666336dd0",
-  "notes": ["0.12.25：远程会话支持回答 Agent 的反问（选项按钮直接作答）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.26/cube-chat-0.12.26.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.26.apk",
+  "sha256": "28a1c924c9f6f238a3a4c3a9d463d4e16b33273ff8853fa514835c6f177f5a42",
+  "notes": ["0.12.26：远程会话可以在手机上应答审批（允许一次 / 拒绝）"]
 }
