@@ -1,9 +1,9 @@
 {
-  "version": "0.12.34",
-  "versionCode": 1234,
+  "version": "0.12.35",
+  "versionCode": 1235,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.34/cube-chat-0.12.34.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.34.apk",
-  "sha256": "135182c268f2ae1e251a69592386309ee88c75c75235c1bc42afda2a06495f8d",
-  "notes": ["0.12.34：输入框改成收起/展开两态，展开后能看到权限、模型和进度"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.35/cube-chat-0.12.35.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.35.apk",
+  "sha256": "5ddbf2781890a94981ba75ab6a07e33fea202eafb87f94765cc8b548f64a5255",
+  "notes": ["0.12.35：修复输入框点击不展开；加号改为附件菜单"]
 }
