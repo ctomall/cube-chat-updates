@@ -1,9 +1,9 @@
 {
-  "version": "0.12.9",
-  "versionCode": 1209,
-  "size": 1689459,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.9/cube-chat-0.12.9.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.9.apk",
-  "sha256": "6f8e89dd5452b2bd94875bab9aa5adaf7a9e60e71bce5edde292f953fff94c8d",
-  "notes": ["0.12.9：底栏滑块改成真胶囊并加液态边缘（渐变描边 + 内高光 + 光晕）"]
+  "version": "0.12.10",
+  "versionCode": 1210,
+  "size": 1689407,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.10/cube-chat-0.12.10.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.10.apk",
+  "sha256": "2d40d9b33129a64b3c12c4825bdbe2f9fff3c5e0027acbf42d83188d908dad6f",
+  "notes": ["0.12.10：设置页底部不再被胶囊遮住；滑块与图标居中对齐"]
 }
