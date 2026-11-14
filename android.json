@@ -1,9 +1,9 @@
 {
-  "version": "0.12.36",
-  "versionCode": 1236,
+  "version": "0.12.37",
+  "versionCode": 1237,
   "size": 1936439,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.36/cube-chat-0.12.36.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.36.apk",
-  "sha256": "72692a4732f11f6de44ebcd8b6ceb0fb43f642f196b29ceaf52d3071cf9e5af1",
-  "notes": ["0.12.36：关闭输入法自动收回到单行输入框"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.37/cube-chat-0.12.37.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.37.apk",
+  "sha256": "feae7cbc561698f398af9357e708ed2e50f426aaec94d1afc52ea5eb4a72b30f",
+  "notes": ["0.12.37：修复关闭键盘后输入框上方/下方留白异常"]
 }
