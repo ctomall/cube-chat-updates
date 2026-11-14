@@ -1,9 +1,9 @@
 {
-  "version": "0.12.69",
-  "versionCode": 1269,
+  "version": "0.12.70",
+  "versionCode": 1270,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.69/cube-chat-0.12.69.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.69.apk",
-  "sha256": "995d5dc57ceb1b31b549dcc6bc86beeb93f906aa17eae4c2ede4570532946b7b",
-  "notes": ["0.12.69：会话支持多选批量删除"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.70/cube-chat-0.12.70.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.70.apk",
+  "sha256": "997a029dac6e42ff7a171db035eed4daac3f0f7d06b5bcaa61e8041dfcbc9b18",
+  "notes": ["0.12.70：产物路径支持长按分享"]
 }
