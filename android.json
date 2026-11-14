@@ -1,9 +1,9 @@
 {
-  "version": "0.12.67",
-  "versionCode": 1267,
+  "version": "0.12.68",
+  "versionCode": 1268,
   "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.67/cube-chat-0.12.67.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.67.apk",
-  "sha256": "29d47102b15fb594ff27845b9ad8e40a17179403a15ec267c9091be8097cfc36",
-  "notes": ["0.12.67：轨迹可以点进某一轮看事件明细"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.68/cube-chat-0.12.68.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.68.apk",
+  "sha256": "d0147a4906d8bf76ed714635f1e9840a1d1da7737fbb4c889446d00e680259fd",
+  "notes": ["0.12.68：工具结果里的 diff 会按增删上色"]
 }
