@@ -1,9 +1,9 @@
 {
-  "version": "0.12.30",
-  "versionCode": 1230,
+  "version": "0.12.31",
+  "versionCode": 1231,
   "size": 1920055,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.30/cube-chat-0.12.30.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.30.apk",
-  "sha256": "f1f81e7d4dd127f1de009de25bfe0e67b97c396222d6d2f082bfef3463fb5918",
-  "notes": ["0.12.30：配对页改用手机远程的固定入口（39 内网/公网、45 内网），不再引导填临时隧道"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.31/cube-chat-0.12.31.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.31.apk",
+  "sha256": "b5a808d15b8143b9392e80a97b4179e334f61bc1a0a6389683563b97b76586f1",
+  "notes": ["0.12.31：远程会话的助手消息支持复制与重试"]
 }
