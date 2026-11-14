@@ -1,9 +1,9 @@
 {
-  "version": "0.12.51",
-  "versionCode": 1251,
+  "version": "0.12.52",
+  "versionCode": 1252,
   "size": 1952823,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.51/cube-chat-0.12.51.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.51.apk",
-  "sha256": "884be184e1303bb6346ff2e9071cb4e0e608e473a5d1cbe57bf41da84f1023f8",
-  "notes": ["0.12.51：修复完成通知没有合并的问题（同一会话只保留最新一条）"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.52/cube-chat-0.12.52.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.52.apk",
+  "sha256": "10e800804745886876b24bf8f127f1389e9ea06d399bb1b1442318f063053bd9",
+  "notes": ["0.12.52：本地会话显示思考过程（reasoning_content）"]
 }
