@@ -1,9 +1,9 @@
 {
-  "version": "0.12.89",
-  "versionCode": 1289,
+  "version": "0.12.90",
+  "versionCode": 1290,
   "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.89/cube-chat-0.12.89.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.89.apk",
-  "sha256": "426b656f75f587c438dab41040d2e05d23561393875f719028548fd0b26b4951",
-  "notes": ["0.12.89：收件箱按设备分组，可看时长并停止任务"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.90/cube-chat-0.12.90.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.90.apk",
+  "sha256": "e81f66e0f107ec46c377e84d54c79aa81ababd1fe2f1da2b9e577848e7a258de",
+  "notes": ["0.12.90：收件箱显示真实运行时长，停止可直达网关"]
 }
