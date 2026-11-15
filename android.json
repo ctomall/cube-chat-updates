@@ -1,9 +1,9 @@
 {
-  "version": "0.12.71",
-  "versionCode": 1271,
-  "size": 1969295,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.71/cube-chat-0.12.71.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.71.apk",
-  "sha256": "85cf469872a13686e1f8376fb98e73fcdbff035d5b6dc3ababe0b29c83fc549e",
-  "notes": ["0.12.71：轨迹支持按轮次重放"]
+  "version": "0.12.72",
+  "versionCode": 1272,
+  "size": 1985679,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.72/cube-chat-0.12.72.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.72.apk",
+  "sha256": "166ffc286ac4421486feb92bb6730e4c40b5781e54a91deded91cf0a8a2bbb6d",
+  "notes": ["0.12.72：轨迹可跨轮连续重放，支持暂停"]
 }
