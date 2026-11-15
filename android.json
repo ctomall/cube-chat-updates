@@ -1,9 +1,9 @@
 {
-  "version": "0.12.79",
-  "versionCode": 1279,
-  "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.79/cube-chat-0.12.79.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.79.apk",
-  "sha256": "ea66ea127314da3bd0c3bdf2def5438491df566baefe1db7e12fcd6125f3a3d1",
-  "notes": ["0.12.79：会话搜索支持 ID，文案对齐鸿蒙版"]
+  "version": "0.12.80",
+  "versionCode": 1280,
+  "size": 1985675,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.80/cube-chat-0.12.80.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.80.apk",
+  "sha256": "daec09f3def8c2f5b6c0489fe286f6372e175a01bb5c53ff91649a181450dc1e",
+  "notes": ["0.12.80：输入草稿会保存，杀进程也不丢"]
 }
