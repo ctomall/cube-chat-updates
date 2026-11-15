@@ -1,9 +1,9 @@
 {
-  "version": "0.12.96",
-  "versionCode": 1296,
+  "version": "0.12.97",
+  "versionCode": 1297,
   "size": 2002063,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.96/cube-chat-0.12.96.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.96.apk",
-  "sha256": "be053d4448fd3d73abd69f3681b8a4d80dfa81f377fe0621b883ec6280c1dc70",
-  "notes": ["0.12.96：Claude（Anthropic 协议）也能调用工具"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.97/cube-chat-0.12.97.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.97.apk",
+  "sha256": "dc4037d80a3f3dd6a55e39890cdc92ce5393f349ff376d9dbe184e5d4e305bec",
+  "notes": ["0.12.97：Gemini 也能调用工具，三家协议齐了"]
 }
