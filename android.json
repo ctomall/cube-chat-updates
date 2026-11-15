@@ -1,9 +1,9 @@
 {
-  "version": "0.12.87",
-  "versionCode": 1287,
+  "version": "0.12.88",
+  "versionCode": 1288,
   "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.87/cube-chat-0.12.87.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.87.apk",
-  "sha256": "1e200f2ec81323c687694982d288389c11e0812975bdd2c70cf4309dfad96ef6",
-  "notes": ["0.12.87：设置里的测试通知一次推三条，可验证分组"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.88/cube-chat-0.12.88.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.88.apk",
+  "sha256": "8cbfe84211456182f0649bac8855920e6533d3d9e5073d463d83ecca293af948",
+  "notes": ["0.12.88：通知摘要按真实存活数计数"]
 }
