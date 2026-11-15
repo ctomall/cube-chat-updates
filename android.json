@@ -1,9 +1,9 @@
 {
-  "version": "0.12.83",
-  "versionCode": 1283,
-  "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.83/cube-chat-0.12.83.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.83.apk",
-  "sha256": "55d4d8b3d82da372c00bf1f5feaf35525cecf967625d693eed4c6c7ef6a63976",
-  "notes": ["0.12.83：选图改用照片选择器，选完先预览不自动发送"]
+  "version": "0.12.84",
+  "versionCode": 1284,
+  "size": 1985675,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.84/cube-chat-0.12.84.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.84.apk",
+  "sha256": "6873532127e254ea29518819ea5924176a8e9516897f0f16096a80bfe4e50c18",
+  "notes": ["0.12.84：修草稿竞态，补图片预览（验证未完成）"]
 }
