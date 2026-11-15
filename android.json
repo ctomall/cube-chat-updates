@@ -1,9 +1,9 @@
 {
-  "version": "0.12.76",
-  "versionCode": 1276,
+  "version": "0.12.77",
+  "versionCode": 1277,
   "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.76/cube-chat-0.12.76.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.76.apk",
-  "sha256": "cb8fdd60fb9a45d2c1cc6c5e82b41786c7c169e021b93db2efcc0ab5ed861aae",
-  "notes": ["0.12.76：诊断文案更明确，补失败分支单测"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.77/cube-chat-0.12.77.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.77.apk",
+  "sha256": "fafaacba43fc9e6cdfd41a74415853e30d482486eba9c656cf8803bae6fbc74f",
+  "notes": ["0.12.77：连续重放支持 0.5x / 1x / 2x 倍速"]
 }
