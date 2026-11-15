@@ -1,9 +1,9 @@
 {
-  "version": "0.12.98",
-  "versionCode": 1298,
-  "size": 2018491,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.98/cube-chat-0.12.98.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.98.apk",
-  "sha256": "45c82d2ec272b72f089ad9396ab6bf15c7441dfad6f643818e6015a17926126a",
-  "notes": ["0.12.98：全量数据可导出为 JSON 并导入"]
+  "version": "0.12.99",
+  "versionCode": 1299,
+  "size": 2002063,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.99/cube-chat-0.12.99.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.99.apk",
+  "sha256": "3cc52adda1bf511d87a36d4bf45549d902911add661d159e33ea6db93f90be37",
+  "notes": ["0.12.99：视觉 token 统一，界面层不再写死颜色"]
 }
