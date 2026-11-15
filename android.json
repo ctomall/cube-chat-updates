@@ -1,9 +1,9 @@
 {
-  "version": "0.12.80",
-  "versionCode": 1280,
+  "version": "0.12.81",
+  "versionCode": 1281,
   "size": 1985675,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.80/cube-chat-0.12.80.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.80.apk",
-  "sha256": "daec09f3def8c2f5b6c0489fe286f6372e175a01bb5c53ff91649a181450dc1e",
-  "notes": ["0.12.80：输入草稿会保存，杀进程也不丢"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.81/cube-chat-0.12.81.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.81.apk",
+  "sha256": "c56dc3094d67e63e1ae9dfa6463cb47f028865a42630d4b9843af7f8d6716201",
+  "notes": ["0.12.81：会话列表标出未发送的草稿"]
 }
