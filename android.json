@@ -1,9 +1,9 @@
 {
-  "version": "0.12.92",
-  "versionCode": 1292,
-  "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.92/cube-chat-0.12.92.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.92.apk",
-  "sha256": "638ea1766b1b7667c3974276d50f9b677f32b67b43ad80714c2dadec0b76e38b",
-  "notes": ["0.12.92：服务商支持 Anthropic / Gemini 协议"]
+  "version": "0.12.93",
+  "versionCode": 1293,
+  "size": 2002063,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.93/cube-chat-0.12.93.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.93.apk",
+  "sha256": "c8b152b2fbc2155a57cf4c01cb5927da4b06d08a7c5479e97550273c9e297b32",
+  "notes": ["0.12.93：15 家服务商模板，支持测试连接"]
 }
