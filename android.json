@@ -1,9 +1,9 @@
 {
-  "version": "0.12.78",
-  "versionCode": 1278,
+  "version": "0.12.79",
+  "versionCode": 1279,
   "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.78/cube-chat-0.12.78.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.78.apk",
-  "sha256": "1a79ef6f7b691eac9ceb045799d2c6cfee866493b55d74ac440346eb8ff0d0f7",
-  "notes": ["0.12.78：会话标题栏直接显示轮次/步数/模型耗时"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.79/cube-chat-0.12.79.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.79.apk",
+  "sha256": "ea66ea127314da3bd0c3bdf2def5438491df566baefe1db7e12fcd6125f3a3d1",
+  "notes": ["0.12.79：会话搜索支持 ID，文案对齐鸿蒙版"]
 }
