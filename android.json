@@ -1,9 +1,9 @@
 {
-  "version": "0.12.99",
-  "versionCode": 1299,
-  "size": 2002063,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.99/cube-chat-0.12.99.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.99.apk",
-  "sha256": "3cc52adda1bf511d87a36d4bf45549d902911add661d159e33ea6db93f90be37",
-  "notes": ["0.12.99：视觉 token 统一，界面层不再写死颜色"]
+  "version": "0.13.0",
+  "versionCode": 1300,
+  "size": 2002055,
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.13.0/cube-chat-0.13.0.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.13.0.apk",
+  "sha256": "ae23c42ca345562c6e218c6aef18dfb105be1aeb842da428d34e79ccb7b5f143",
+  "notes": ["0.13.0：修复思考过程 null 刷屏，并清理历史脏数据"]
 }
