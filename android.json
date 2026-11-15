@@ -1,9 +1,9 @@
 {
-  "version": "0.12.73",
-  "versionCode": 1273,
+  "version": "0.12.74",
+  "versionCode": 1274,
   "size": 1985679,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.73/cube-chat-0.12.73.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.73.apk",
-  "sha256": "8891952f00f6ce19410a815dd1745e165a310a569270d7e9a121001efdafde20",
-  "notes": ["0.12.73：重放按事件逐条，工具调用与结果分开"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.74/cube-chat-0.12.74.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.74.apk",
+  "sha256": "dc37f3ccd0170396dff0fee9337daa39247b92a5a18a97ae42e0e571f47f9216",
+  "notes": ["0.12.74：重放里显示每一步耗时"]
 }
