@@ -1,9 +1,9 @@
 {
-  "version": "0.12.95",
-  "versionCode": 1295,
+  "version": "0.12.96",
+  "versionCode": 1296,
   "size": 2002063,
-  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.95/cube-chat-0.12.95.apk",
-  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.95.apk",
-  "sha256": "0cc4ec38fc0e623e78d50313ed06309771cf1bea68a5085252f3bb8f796ba01e",
-  "notes": ["0.12.95：联网搜索支持 Tavily / Exa"]
+  "url": "https://github.com/ctomall/cube-chat-updates/releases/download/v0.12.96/cube-chat-0.12.96.apk",
+  "fallback": "https://dsh.ila3.top/demo/cube-chat/cube-chat-0.12.96.apk",
+  "sha256": "be053d4448fd3d73abd69f3681b8a4d80dfa81f377fe0621b883ec6280c1dc70",
+  "notes": ["0.12.96：Claude（Anthropic 协议）也能调用工具"]
 }
